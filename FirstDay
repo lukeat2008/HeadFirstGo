@@ -1,2 +1,15 @@
 1) Try Go in https://play.golang.org
-2) 
+
+2) Key point:
+   >> Every Go file has to begin with a package declaration.
+   >> Go files must import only the packages they reference. 
+   >> Your program looks for a function named main to run first.
+   >> fmt.Println function
+   >> math.Floor function
+   >> strings.Title function
+  
+3) SampleCode_01
+
+4) Runes are kept as numeric codes, not the characters themselves, and if you pass a rune to fmt.Println, you'll see that numeric code in the output, not the original character.
+
+5) Go is statically typed, which means that it knows what the types of your values are even before your program runs. 
