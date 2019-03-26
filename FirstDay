@@ -1,4 +1,4 @@
-1) Try Go in https://play.golang.org
+1) Try Go : https://play.golang.org
 
 2) Key point:
    >> Every Go file has to begin with a package declaration.
@@ -13,3 +13,24 @@
 4) Runes are kept as numeric codes, not the characters themselves, and if you pass a rune to fmt.Println, you'll see that numeric code in the output, not the original character.
 
 5) Go is statically typed, which means that it knows what the types of your values are even before your program runs. 
+
+6) fmt.Println(reflect.TypeOf(1))      --  int
+	fmt.Println(reflect.TypeOf(1.0))    --  float64
+	fmt.Println(reflect.TypeOf('A'))    --  int32  (rune)
+	fmt.Println(reflect.TypeOf("A"))    --  string
+	fmt.Println(reflect.TypeOf(true))   --  bool
+ 
+7) To declare a variable : 
+   var TestIntVar int
+   var TestStrVar string
+   var TestFloatVar1, TestFloatVar2 float64
+
+   Go variables can only store values of their declared type.
+ 
+8) Short variable declaration: 
+   var TestIntVar int = 1  <=>  var TestIntVar := 1
+  
+9) If the name of a variable, function, or type begins with a capital letter, it is considered exported and can be accessed from packages outside the current one. 
+   This is why the "P" in fmt.Println is capitalized: so it can be used from the main package or any other.
+  
+A) install Go tools : https://golang.org
