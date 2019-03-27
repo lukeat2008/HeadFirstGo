@@ -1,0 +1,8 @@
+1) Input from the keyboard is read in as a string.
+2) The input string still has a newline character on the end, from when the user pressed the Enter key while entering it. 
+   Use the strings package's TrimSpace function to strip that off.
+3) Use the strconv package's ParseFloat function to convert it to a float64 value.
+4) ParseFloat returns a second error value, which will be nil unless there was some problem converting the string.
+5) input, error  = strconv.ParseFloat(input, 64) is a Wrong statement
+6) Each variable you declare has a scope: a portion of your code that it's "visible" within.
+7) Difference between = and :=
