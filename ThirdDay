@@ -6,3 +6,7 @@
 5) input, error  = strconv.ParseFloat(input, 64) is a Wrong statement
 6) Each variable you declare has a scope: a portion of your code that it's "visible" within.
 7) Difference between = and :=
+8) summary:
+   package : "fmt"  "strings" "log" "bufio" "os" "strconv" "time"
+   function: main() fmt.Println() time.Now() strings.TrimSpace() strings.NewReplacer() bufio.NewReader() log.Fatal() strconv.ParseFloat()
+   method  :
