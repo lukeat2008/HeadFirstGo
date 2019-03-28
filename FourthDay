@@ -11,3 +11,4 @@
    for x := 2; x < 5; x++ {}
 5) note the else's position in the structure if/else if
 6) continue and break in the loop 
+7) Unlike most programming languages, Go allows multiple return values from a function or method call.
