@@ -1,0 +1,13 @@
+1) package import path and package name
+    math/rand.Intn(), One is the package's import path(math), and the other is the package's name(rand).
+    When we say math/rand we're referring to the package's import path, not its name. 
+    By convention, the last (or only) segment of the import path is also used as the package name.
+2) Increase randomness
+    seconds := time.Now().Unix()
+    rand.Seed(seconds)
+    target := rand.Intn(100) + 1
+3) strconv package's Atoi (string to integer)
+4) loops:
+   for x := 2; x < 5; x++ {}
+5) note the else's position in the structure if/else if
+6) continue and break in the loop 
