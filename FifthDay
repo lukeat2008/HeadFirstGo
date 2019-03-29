@@ -1,0 +1,14 @@
+1) Formating Verbs: %s %d %f %t %v %#v %s %T
+   Difference between %v and %#v
+   
+2) Width: %.2f  %12s  %5d %4.3f
+
+3) fmt.Printf() & fmt.Sprintf
+   Printf()    Print with formatting
+   Sprintf()   Returns a formatted string 
+   
+4) A function declaration begins with the func keyword, followed by the name you want the function to have, a pair of parentheses (), and then a block containing the function's code.
+
+5) Functions whose name begins with a capital letter are exported.
+
+6) Declare function parameters: func test(str01 string, int02 int) {}
